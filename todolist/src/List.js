@@ -47,7 +47,7 @@ export default class List extends Component {
               
                 <input type="text" value={this.state.task} placeholder="Enter what to do " onChange={this.appendList} />
 
-                <button  className="btn btn-dark" onClick={()=>this.AddTask()}>Add item</button><br></br>
+                <button  className="btn btn-dark" onClick={()=>this.AddTask()}>Add Task</button><br></br>
 
                 <button  className="btn btn-danger" onClick={()=>this.removeItem()}>Remove list</button><br></br>
               
